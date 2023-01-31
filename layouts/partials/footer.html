@@ -1,0 +1,16 @@
+<footer class="site-footer">
+  <div class="inner">
+    {{ with .Site.Params.copyright }}
+      <section class="copyright">{{ . | markdownify }}</section>{{ end }}
+
+
+    <section>{{ echoParam .Site.Params "hidebyline" }}</section>
+    {{ if ne .Site.Params.hidedesignbyline true }}
+      <section>
+        <a>Design</a> 
+        built with ♥️ by
+        <a title="ReNueva">ReNueva</a>
+      </section>{{ end }}
+
+  </div>
+</footer>

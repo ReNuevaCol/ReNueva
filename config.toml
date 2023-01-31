@@ -1,0 +1,4 @@
+baseURL = "https://ReNuevaCol.github.io/ReNueva/"
+defaultContentLanguage = "en"
+title = "ReNueva"
+theme = "hugo-scroll"
